@@ -14,7 +14,7 @@ docker exec -it ubuntu1 /bin/bash -c "touch /tmp/toto.txt && ls -l /tmp/"
 
 echo "=== 4. Vérification depuis ubuntu2 ==="
 docker exec -it ubuntu2 /bin/bash -c "ls /tmp/"
-docker exec -it ubuntu2 /bin/bash -c "echo 'Principe leader to eazytraining' > /tmp/toto.txt"
+docker exec -it ubuntu2 /bin/bash -c "echo 'Principe learning to eazytraining' > /tmp/toto.txt"
 
 echo "=== 5. Lecture du fichier modifié dans ubuntu1 ==="
 docker exec -it ubuntu1 /bin/bash -c "cat /tmp/toto.txt"
