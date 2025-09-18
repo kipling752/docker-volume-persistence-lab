@@ -1,4 +1,4 @@
-=# Docker Volume Persistence Lab
+# Docker Volume Persistence Lab
 
 ## 🎯 Objectif
 Ce TP présente des instructions pour gérer le **stockage persistant en informatique**.  
